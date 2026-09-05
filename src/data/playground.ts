@@ -208,7 +208,7 @@ app.post("/login", (req, res) => {
     code: {
       lang: "javascript",
       snippet: `// src/api.js — shipped in the front-end bundle
-const API_KEY = "sk_live_51HqLyjWDarjtT1zdp7dc3f7g";
+const API_KEY = "sk_test_placeholder";
 export async function chargeCard(amount) {
   return fetch("https://api.stripe.com/v1/charges", {
     method: "POST",

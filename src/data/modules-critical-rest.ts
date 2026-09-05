@@ -431,7 +431,7 @@ user.ssn = vault.encrypt(plainSsn);        // AES-256-GCM via KMS — keys outsi
         label: "JavaScript",
         mark: [2, 7],
         code: `// VULNERABLE — secrets in source and in the client bundle
-const STRIPE_SECRET = 'sk_test_placeholder';   // in git forever
+const STRIPE_SECRET = "sk_test_placeholder";   // in git forever
 const DB_PASSWORD = 'hunter2';
 
 // VULNERABLE — "hidden" in the front-end: shipped to every browser
