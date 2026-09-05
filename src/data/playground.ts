@@ -228,7 +228,7 @@ export async function chargeCard(amount) {
     fix: {
       lang: "javascript",
       snippet: `// Front-end: use the PUBLISHABLE key only
-const stripe = Stripe("pk_live_51HqLyjWDarjtT1zdp7");
+const stripe = Stripe("sk_test_placeholder");
 // Secret key lives on the server:
 // app.post("/api/intent", auth, async (req, res) => {
 //   const intent = await stripe.paymentIntents.create({...});
