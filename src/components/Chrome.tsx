@@ -117,7 +117,7 @@ export function Navbar({ route }: { route: string }) {
             </button>
             <a
               className="btn-sdh ghost sm d-none d-md-inline-flex"
-              href="https://github.com"
+              href="https://github.com/ArsalainGh/SecureDevHub"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Star SecureDevHub on GitHub (opens in a new tab)"
@@ -143,7 +143,7 @@ export function Navbar({ route }: { route: string }) {
                 {l.label}
               </a>
             ))}
-            <a className="btn-sdh sm mt-2" href="https://github.com" target="_blank" rel="noopener noreferrer" style={{ justifyContent: "center" }}>
+            <a className="btn-sdh sm mt-2" href="https://github.com/ArsalainGh/SecureDevHub" target="_blank" rel="noopener noreferrer" style={{ justifyContent: "center" }}>
               <GithubIcon size={15} /> Star on GitHub
             </a>
           </div>
@@ -177,8 +177,8 @@ const FOOT_COLS: Array<{ title: string; links: Array<{ label: string; href: stri
     title: "Project",
     links: [
       { label: "About", href: "#/about" },
-      { label: "Contribute on GitHub", href: "https://github.com", external: true },
-      { label: "Report an Issue", href: "https://github.com", external: true },
+      { label: "Contribute on GitHub", href: "https://github.com/ArsalainGh/SecureDevHub", external: true },
+      { label: "Report an Issue", href: "https://github.com/ArsalainGh/SecureDevHub/issues", external: true },
       { label: "MIT License", href: "#/about" },
     ],
   },
@@ -195,7 +195,7 @@ export function Footer() {
               A free, open-source security guide for web developers. Learn vulnerabilities, fix them with real code, and never ship insecure code again.
             </p>
             <div className="d-flex gap-2 mt-3">
-              <a className="icon-btn bordered" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="SecureDevHub on GitHub (opens in a new tab)">
+              <a className="icon-btn bordered" href="https://github.com/ArsalainGh/SecureDevHub" target="_blank" rel="noopener noreferrer" aria-label="SecureDevHub on GitHub (opens in a new tab)">
                 <GithubIcon size={18} />
               </a>
               <a className="icon-btn bordered" href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="SecureDevHub on X (opens in a new tab)">
