@@ -1,5 +1,7 @@
 # SecureDevHub
 
+![SecureDevHub Screenshot](./public/assets/Screenshot%202026-09-06%20094626.png)
+
 **Write Code. Ship Secure.**
 
 A free, open-source security guide for web developers. Learn the vulnerabilities that
