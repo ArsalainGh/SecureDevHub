@@ -305,54 +305,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* ============ NEWSLETTER ============ */}
-      <section className="section" aria-labelledby="newsletter">
-        <div className="container-sdh">
-          <Reveal>
-            <div className="sd-card p-5 text-center position-relative overflow-hidden">
-              <div
-                aria-hidden="true"
-                style={{
-                  position: "absolute", inset: 0, pointerEvents: "none",
-                  background: "radial-gradient(600px 260px at 50% -40%, color-mix(in srgb, var(--primary) 16%, transparent), transparent 70%)",
-                }}
-              />
-              <div className="position-relative">
-                <span className="icon-tile mx-auto mb-3" style={{ width: 52, height: 52, borderRadius: 14 }}><Mail size={22} aria-hidden="true" /></span>
-                <h2 style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)" }}>Stay updated on web security</h2>
-                <p className="mx-auto mt-2 mb-4" style={{ color: "var(--text-2)", maxWidth: 480 }}>
-                  One short email when we publish a new module, checklist or breach autopsy.
-                  No spam, no tracking pixels — unsubscribe anytime.
-                </p>
-                {subscribed ? (
-                  <div className="d-inline-flex align-items-center gap-2" role="status" style={{ color: "var(--success)", fontWeight: 600 }}>
-                    <span className="icon-tile success" style={{ width: 34, height: 34 }}><Check size={16} aria-hidden="true" /></span>
-                    You're on the list — see you in the next issue.
-                  </div>
-                ) : (
-                  <form
-                    className="d-flex justify-content-center gap-2 flex-wrap"
-                    onSubmit={(e) => { e.preventDefault(); setSubscribed(true); }}
-                    aria-label="Newsletter signup"
-                  >
-                    <div className="input-wrap" style={{ maxWidth: 340, flex: "1 1 260px" }}>
-                      <Mail size={16} aria-hidden="true" />
-                      <input type="email" required className="input-sdh" placeholder="you@devmail.com" aria-label="Email address" />
-                    </div>
-                    <button type="submit" className="btn-sdh primary">
-                      Subscribe <ArrowRight size={15} aria-hidden="true" />
-                    </button>
-                  </form>
-                )}
-                <p className="mt-3 mb-0" style={{ color: "var(--text-3)", fontSize: "0.78rem" }}>
-                  Demo form — this static build stores nothing and phones nowhere.
-                </p>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      
     </>
   );
 }
